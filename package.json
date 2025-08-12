@@ -4,7 +4,8 @@
   "description": "Backend server for portfolio contact form using Brevo API",
   "main": "email-proxy.js",
   "scripts": {
-    "start": "node email-proxy.js",
+    "build": "tsc",
+    "start": "node dist/email-proxy.js",
     "dev": "tsx email-proxy.ts"
   },
   "dependencies": {
