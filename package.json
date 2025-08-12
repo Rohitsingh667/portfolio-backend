@@ -5,7 +5,7 @@
   "main": "email-proxy.js",
   "scripts": {
     "build": "tsc",
-    "start": "node ../dist/email-proxy.js"
+    "start": "node ../dist/email-proxy.js",
     "dev": "tsx email-proxy.ts"
   },
   "dependencies": {
